@@ -14,7 +14,6 @@ export default function Medium() {
             .then((res) => {
               console.log(res.data.results);
               setInfo(res.data.results);
-              
             })
             .catch((err) => {
               console.log(err);
@@ -22,7 +21,6 @@ export default function Medium() {
 
         }
     }
-
 
   return (
     <div>

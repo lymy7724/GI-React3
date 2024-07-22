@@ -1,5 +1,4 @@
 import React from 'react'
-import './Header.css'
 import { Link, Outlet } from 'react-router-dom'
 
 export default function Header() {

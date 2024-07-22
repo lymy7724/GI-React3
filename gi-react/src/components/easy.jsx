@@ -26,10 +26,12 @@ export default class easy extends Component {
 
   render() {
     return (
-      <div>
+      <div className='counter'>
         <h1>{this.state.count}</h1>
+        <div>
         <button onClick={this.increment}>+</button>
         <button onClick={this.decrement}>-</button>
+        </div>
       </div>
     )
   }

@@ -1,0 +1,42 @@
+.task-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    color: wheat;
+    font-size: 25px;
+}
+
+.add-task {
+    height: 30px;
+}
+
+.todo_item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#task-button {
+    background-color: rgba(7, 97, 241, 0.611);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.other-buttons {
+    background-color: rgba(7, 97, 241, 0.611);
+    color: white;
+    font-size: 15px;
+    border: none;
+    width: 100px;
+}

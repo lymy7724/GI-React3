@@ -1,8 +1,9 @@
 import "./App.css";
 import Easy from './components/easy'
 import Medium from "./components/MEDIUM/Medium";
+import Hard from './components/Hard/Hard';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
 import Movie from "./components/MEDIUM/Movie";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Route index element={<Easy />} />
         <Route path="medium" element={<Medium />} />
         <Route path="medium/:id" element={<Movie />} />
-        {/* <Route path="hard" element={<Hard />} /> */}
+        <Route path="hard" element={<Hard />} />
       </Route>
     </Routes>
   </BrowserRouter>
