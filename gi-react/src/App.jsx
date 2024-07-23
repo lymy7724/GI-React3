@@ -5,6 +5,7 @@ import Hard from './components/Hard/Hard';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Movie from "./components/MEDIUM/Movie";
+import Task from "./components/Hard/Task";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path="medium" element={<Medium />} />
         <Route path="medium/:id" element={<Movie />} />
         <Route path="hard" element={<Hard />} />
+        <Route path="detailed" element={<Task />} />
+
       </Route>
     </Routes>
   </BrowserRouter>
